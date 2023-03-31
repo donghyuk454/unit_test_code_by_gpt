@@ -10,8 +10,7 @@
 
 다음은 제가 작성한 Domain 코드인 User.class 입니다.
 
-User.class
----
+#### User.class
 
 ``` 
 package com.dong.gpt.domain;
@@ -63,8 +62,8 @@ public class User {
 다음은 User.class 에 대해 GPT 가 생성한 단위 테스트 코드입니다.
 
 
-UserTest.class
----
+#### UserTest.class
+
 ```
 package com.dong.gpt.domain;
 
@@ -105,8 +104,8 @@ class UserTest {
 이번엔 User 클래스와 DB를 연동하여 crud 기능을 맡을 UserRepository.class 인터페이스와 UserRepositoryImpl.class 구현체입니다.
 
 
-UserRepository.class
----
+#### UserRepository.class
+
 ```
 package com.dong.gpt.repository;
 
@@ -119,8 +118,8 @@ public interface UserRepository {
 }
 ```
 
-UserRepositoryImpl.class
----
+#### UserRepositoryImpl.class
+
 ```
 package com.dong.gpt.repository;
 
@@ -170,8 +169,8 @@ public class UserRepositoryImpl implements UserRepository {
 과연 어떻게 작성할까요? 
 GPT가 작성한 단위 테스트 코드입니다.
 
-UserRepositoryImplTest.class
----
+#### UserRepositoryImplTest.class
+
 ```
 package com.dong.gpt.repository;
 
@@ -248,8 +247,8 @@ Mocking을 사용하는 대신 @SpringBootTest를 사용하여 Transaction에 �
 이번엔 User와 관련된 로직을 처리할 UserService.class 인터페이스와 구현체인 UserServiceImpl.class 입니다.
 
 
-UserService.class
----
+#### UserService.class
+
 ```
 package com.dong.gpt.service;
 
@@ -263,8 +262,8 @@ public interface UserService {
 ```
 
 
-UserServiceImpl.class
----
+#### UserServiceImpl.class
+
 ```
 package com.dong.gpt.service;
 
@@ -321,8 +320,8 @@ public class UserServiceImpl implements UserService {
 
 GPT가 작성한 테스트 코드입니다.
 
-UserServiceImplTest.class
----
+#### UserServiceImplTest.class
+
 ```
 package com.dong.gpt.service;
 
@@ -409,8 +408,8 @@ class UserServiceImplTest {
 
 마지막으로, 실제 API의 Endpoint와 Parameter 등을 결정할 Rest Controller 인 UserController.class 입니다.
 
-UserController.class
----
+#### UserController.class
+
 ```
 package com.dong.gpt.controller;
 
@@ -465,8 +464,8 @@ public class UserController {
 
 GPT가 작성한 단위 테스트 코드입니다.
 
-UserControllerTest.class
----
+#### UserControllerTest.class
+
 ```
 package com.dong.gpt.controller;
 
